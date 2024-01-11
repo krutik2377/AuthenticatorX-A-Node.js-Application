@@ -1,0 +1,23 @@
+Project for today
+
+Let people sign up to your website only allow signed in users to see people (Create a dummy people list)
+
+[1] POST/signup
+
+BOdy {
+    username:----String 
+    password:----String
+}
+
+[2] GET/users
+Headers-
+Authorization headers
+Return yes / no based on authorization.
+
+
+For Authentication first we need to understand about cryptographic jargons.
+
+1.Hashing
+2.Encryption
+3.Json web tokens
+4.Local storage
